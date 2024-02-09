@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -544,7 +544,77 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-orange-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 88 12 / var(--tw-bg-opacity));
+.flex {
+  display: flex;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.font-xFont-b {
+  font-family: xFont-b;
+}
+
+.font-xFont-h {
+  font-family: xFont-h;
+}
+
+.font-xFont-m {
+  font-family: xFont-m;
+}
+
+.font-xFont-r {
+  font-family: xFont-r;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-green-600 {
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity));
+}
+
+.text-orange-500 {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: "xFont-b";
+
+  src: url(../fonts/Chirp-Bold.ebb56aba.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "xFont-h";
+
+  src: url(../fonts/Chirp-Heavy.f44ae4ea.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "xFont-m";
+
+  src: url(../fonts/Chirp-Medium.f8e2739a.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "xFont-r";
+
+  src: url(../fonts/Chirp-Regular.80fda27a.ttf) format("truetype");
 }

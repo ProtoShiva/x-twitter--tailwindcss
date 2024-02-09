@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "xFont-b";
+  src: url(../fonts/Chirp-Bold.ebb56aba.ttf) format("truetype");
+}
+@font-face {
+  font-family: "xFont-h";
+  src: url(../fonts/Chirp-Heavy.f44ae4ea.ttf) format("truetype");
+}
+@font-face {
+  font-family: "xFont-m";
+  src: url(../fonts/Chirp-Medium.f8e2739a.ttf) format("truetype");
+}
+@font-face {
+  font-family: "xFont-r";
+  src: url(../fonts/Chirp-Regular.80fda27a.ttf) format("truetype");
+}
